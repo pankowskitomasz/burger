@@ -1,6 +1,9 @@
 $bg__comingsoon-img: "../img/coming.jpg";
+$bg__contact-img: $bg__comingsoon-img;
+$bg__contact-form-img: "../img/contact/contact-form.jpg";
 $bg__error-img: $bg__comingsoon-img;
-$bg__privacy-img: $bg__comingsoon-img;
+$bg__login-img: "../img/login.jpg";
+$bg__privacy-img: $bg__login-img;
 $bg__classes:
     "error",
     "comingsoon",
@@ -11,6 +14,7 @@ $bg__aoa:
     $bg__privacy-img;
 $box__shadow: 2px 2px 5px #333;
 $color__container-bg: #333;
+$color__dark-brw: #43200c;
 $color__shadow: #000;
 $header__height: 0px;
 $section__min-height: 100vh;

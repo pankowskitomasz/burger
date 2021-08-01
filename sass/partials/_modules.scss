@@ -1,0 +1,47 @@
+.bg{
+    &-dark-brw{
+        background-color: $color__dark-brw!important;
+    }
+    &-form{
+        @include set-background($bg__contact-img,0,"center","cover","scroll");
+    }
+}
+.border{
+    &-dark-brw{
+        border-color: $color__dark-brw!important;
+    }
+}
+.contact{
+    &-bg{
+        @include set-background($bg__contact-img,0,"top center","cover","fixed");
+    }
+    &-form{
+        @include set-background($bg__contact-form-img,0,"center","cover","scroll");
+    }
+}
+.login{
+    &-form{
+        @include set-background($bg__login-img,0,"top left","cover","fixed");
+    }
+}
+.opacity{
+    &-8{
+        opacity: 0.8;
+    }
+    &-9{
+        opacity: 0.9;
+    }
+}
+.register{
+    &-form{
+        @extend .login-form;
+    }
+}
+.text{
+    &-dark-brw{
+        color: $color__dark-brw!important;
+    }
+}
+textarea{
+    resize: none;
+}

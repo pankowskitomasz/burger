@@ -1,11 +1,11 @@
 import React,{Component} from "react";
-
+import BaksetData from "../components/basket_data";
 
 class Basket extends Component{
     render(){
         return(          
-            <main className="minh-100vh">     
-
+            <main className="minh-footer-adj bg-basket">     
+                <BaksetData/>
             </main>
         );
     }

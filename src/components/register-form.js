@@ -83,7 +83,7 @@ class RegisterForm extends Component{
             <Container fluid className={"register-form align-items-center p-0 py-5 d-flex minh-100vh "+this.props.classExt}>
                 <Row className="mx-auto text-start w-100 pt-5">
                     <Col xs={11} md={6} lg={5} className="mx-auto p-0 d-flex align-items-center">
-                        <Form className="text-start w-100 border border-dark-brw p-4 rounded bg-form shadow text-dark-brw opacity-9 z-index-10"
+                        <Form className="text-start w-100 border border-dark-brw p-4 rounded bg-form shadow text-dark-brw z-index-10"
                             autoComplete="off"
                             method="POST">
                             <div className="border-bottom border-dark-brw mb-4">

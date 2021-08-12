@@ -25,26 +25,65 @@ body, html {
 .minh-100vh {
   min-height: 100vh;
 }
+/* line 14, ../../sass/partials/_minh.scss */
+.minh-footer-adj {
+  min-height: calc( 100vh - 57px );
+  min-height: -o-calc( 100vh - 57px );
+  min-height: -moz-calc( 100vh - 57px );
+  min-height: -webkit-calc( 100vh - 57px );
+}
 
 /* line 2, ../../sass/partials/_modules.scss */
+.bg-basket {
+  background-attachment: fixed;
+  background-image: url(../img/basket.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 5, ../../sass/partials/_modules.scss */
+.bg-contact {
+  background-attachment: scroll;
+  background-image: url(../img/basket.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 8, ../../sass/partials/_modules.scss */
+.bg-contact-short {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-short.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 11, ../../sass/partials/_modules.scss */
 .bg-dark-brw {
   background-color: #43200c !important;
 }
-/* line 5, ../../sass/partials/_modules.scss */
+/* line 14, ../../sass/partials/_modules.scss */
 .bg-form {
   background-attachment: scroll;
-  background-image: url(../img/coming.jpg);
+  background-image: url(../img/basket.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 17, ../../sass/partials/_modules.scss */
+.bg-home {
+  background-attachment: scroll;
+  background-image: url(../img/basket.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 10, ../../sass/partials/_modules.scss */
+/* line 22, ../../sass/partials/_modules.scss */
 .border-dark-brw {
   border-color: #43200c !important;
 }
 
-/* line 15, ../../sass/partials/_modules.scss */
+/* line 27, ../../sass/partials/_modules.scss */
 .contact-bg {
   background-attachment: fixed;
   background-image: url(../img/coming.jpg);
@@ -52,7 +91,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 18, ../../sass/partials/_modules.scss */
+/* line 30, ../../sass/partials/_modules.scss */
 .contact-form {
   background-attachment: scroll;
   background-image: url(../img/contact/contact-form.jpg);
@@ -61,34 +100,67 @@ body, html {
   background-size: cover;
 }
 
-/* line 23, ../../sass/partials/_modules.scss */
+/* line 35, ../../sass/partials/_modules.scss */
 .login-form, .register-form {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/login.jpg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 28, ../../sass/partials/_modules.scss */
+/* line 40, ../../sass/partials/_modules.scss */
+.object-fit {
+  object-fit: cover;
+}
+
+/* line 45, ../../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
-/* line 31, ../../sass/partials/_modules.scss */
+/* line 48, ../../sass/partials/_modules.scss */
 .opacity-9 {
   opacity: 0.9;
 }
 
-/* line 41, ../../sass/partials/_modules.scss */
+/* line 58, ../../sass/partials/_modules.scss */
+.story-desc {
+  background-attachment: scroll;
+  background-image: url(../img/story/story_desc.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 61, ../../sass/partials/_modules.scss */
+.story-ext {
+  background-attachment: scroll;
+  background-image: url(../img/story/story_ext.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 66, ../../sass/partials/_modules.scss */
 .text-dark-brw {
   color: #43200c !important;
 }
 
-/* line 45, ../../sass/partials/_modules.scss */
+/* line 70, ../../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
+@media all and (max-width: 767px) {
+  /* line 76, ../../sass/partials/_modules.scss */
+  .bg-md-orange-light {
+    background-color: #fec239;
+  }
+
+  /* line 81, ../../sass/partials/_modules.scss */
+  .border-md-dark-brw {
+    border: 1px solid #43200c;
+  }
+}
 /* line 31, ../../sass/partials/_mixins.scss */
 .error-s1 {
   background-attachment: fixed;

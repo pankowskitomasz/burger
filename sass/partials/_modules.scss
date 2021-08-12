@@ -1,9 +1,21 @@
 .bg{
+    &-basket{        
+        @include set-background($bg__basket-img,0,"center","cover","fixed");
+    }
+    &-contact{
+        @include set-background($bg__basket-img,0,"center","cover","scroll");
+    }
+    &-contact-short{
+        @include set-background($bg__contact-short-img,0,"center","cover","scroll");
+    }
     &-dark-brw{
         background-color: $color__dark-brw!important;
     }
     &-form{
-        @include set-background($bg__contact-img,0,"center","cover","scroll");
+        @include set-background($bg__basket-img,0,"center","cover","scroll");
+    }
+    &-home{        
+        @include set-background($bg__basket-img,0,"center","cover","scroll");
     }
 }
 .border{
@@ -21,7 +33,12 @@
 }
 .login{
     &-form{
-        @include set-background($bg__login-img,0,"top left","cover","fixed");
+        @include set-background($bg__login-img,0,"top left","cover","scroll");
+    }
+}
+.object{
+    &-fit{
+        object-fit: cover;
     }
 }
 .opacity{
@@ -37,6 +54,14 @@
         @extend .login-form;
     }
 }
+.story{
+    &-desc{       
+        @include set-background($bg__story-desc-img,0,"center right","cover","scroll");
+    }
+    &-ext{        
+        @include set-background($bg__story-ext-img,0,"center left","cover","scroll");
+    }
+}
 .text{
     &-dark-brw{
         color: $color__dark-brw!important;
@@ -44,4 +69,17 @@
 }
 textarea{
     resize: none;
+}
+
+@media all and (max-width:767px){
+    .bg{
+        &-md-orange-light{
+            background-color: $color__orange-light;
+        }
+    }
+    .border{
+        &-md-dark-brw{
+            border: 1px solid $color__dark-brw;
+        }
+    }
 }

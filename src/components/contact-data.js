@@ -23,9 +23,9 @@ class ContactData extends Component{
                             className="img-fluid w-75"
                             src="img/contact/contact-data.png"/>
                     </Col>
-                    <Col xs={10} sm={6} className="mx-auto text-white p-0 d-flex align-items-center">
-                        <div className="p-5 text-shadow">
-                            <h1 className="display-4 fw-bold font-logo text-white">
+                    <Col xs={10} sm={6} className="mx-auto text-dark-brw p-0 d-flex align-items-center">
+                        <div className="p-5">
+                            <h1 className="display-4 fw-bold font-logo text-dark-brw">
                                 Contact us
                             </h1>
                             <p className="initialism">
